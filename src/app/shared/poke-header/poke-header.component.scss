@@ -1,0 +1,10 @@
+@import '../../scss/rem-calc.scss';
+:host {
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: transform-rem(40) 0;
+  }
+}
+//o host delimita que ele vai aplicar esse estilo somente nesse componente
