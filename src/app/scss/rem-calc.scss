@@ -1,5 +1,5 @@
 @function transform-rem($size){
-  $result: $size / 16;
+  $result: calc($size/ 16);
   @return #{$result}rem;
 }
 // transforma pixel em rem
